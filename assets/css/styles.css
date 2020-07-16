@@ -1,0 +1,672 @@
+@media (max-width: 1100px) {
+  #introduce_main_section {
+    background-image: url("introducion_main.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: -130px;
+  }
+}
+
+#introduce_heading {
+  color: rgb(255,255,255);
+}
+
+body {
+  width: 100%;
+  background-color: rgb(255,255,255);
+  font-family: Nunito, sans-serif!important;
+}
+
+#introduce_paragraph {
+  color: rgb(255,255,255);
+}
+
+#introducion_main_column {
+  height: 100vh;
+}
+
+#introduce_info {
+  margin-left: 20%;
+  padding-top: 28%;
+}
+
+@media (max-width: 767px) {
+  #introduce_info {
+    margin-left: 0;
+    padding-top: 28%;
+  }
+}
+
+@media (max-width: 1100px) {
+  #introduce_info {
+    padding: 0px 0px 30% 0px;
+    position: absolute;
+    bottom: 0;
+    /*display: none;*/
+  }
+}
+
+@media (max-width: 500px) {
+  #introduce_info {
+    padding: 0px 0px 40% 0%;
+    left: 0;
+  }
+}
+
+@media (min-width: 1101px) {
+  #introduce_heading {
+    font-size: 50px;
+  }
+}
+
+#introduce_main_section {
+  background-image: url("../../assets/img/kansikuva.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 600px) {
+  #introduce_main_section {
+    background-position: 70% 30%;
+  }
+}
+
+.col.column-main-blog {
+  /*width: 50%;*/
+}
+
+.timeline-main-info {
+  /*padding-top: 25%;*/
+  color: white;
+  position: absolute;
+  margin: auto;
+  display: inline-block;
+}
+
+.timeline-main-info-background {
+  background-color: rgba(0,0,0,0.51);
+  padding: 25px 10px;
+  border-radius: 20px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  background-color: rgb(58,58,58);
+  border-color: black;
+}
+
+.col-md-6.blog-column-left {
+  min-width: 70%;
+  text-align: justify!important;
+}
+
+.bg-image.bg-image-timeline {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image-timeline {
+  background-image: url("20170324_133729.jpg");
+  min-height: 80%;
+}
+
+body, html {
+  height: 100%;
+}
+
+.caption-timeline {
+  position: absolute;
+  left: 0;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .caption-timeline {
+    width: 50%;
+  }
+}
+
+.caption-timeline-bg {
+  background-color: rgba(0,0,0,0.49);
+  display: inline-block;
+  padding: 20px 50px;
+  border-radius: 10px;
+  color: white;
+}
+
+.caption-timeline-bg a {
+  text-decoration: none;
+  color: rgb(255,255,255);
+  background-color: rgb(170,170,170);
+  padding: 7px 10px 10px 10px;
+  border-radius: 19px;
+}
+
+@media (min-width: 576px) {
+  #main-blog .container {
+    /*position: relative;*/
+    /*top: 50%;*/
+    /*-webkit-transform: translateY(-50%);*/
+    /*-ms-transform: translateY(-50%);*/
+    /*transform: translateY(-50%);*/
+  }
+}
+
+#main-timeline img {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  #main-timeline {
+    height: 100vh;
+  }
+}
+
+#main-timeline a {
+  text-decoration: none;
+  color: black;
+  font-size: 27px;
+  display: inline-block;
+  width: 100%;
+  margin-top: auto;
+}
+
+@media (min-width: 576px) {
+  #main-blog {
+    height: 100vh;
+  }
+}
+
+#main-blog {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.main-timeline-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-top: 4px solid black;
+  height: 300px;
+}
+
+@media (min-width: 768px) {
+  .main-timeline-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-left: 4px solid black;
+    border-top: none;
+    height: auto;
+  }
+}
+
+.text-center.main-timeline-info-p {
+  margin-bottom: auto;
+  color: rgb(166,166,166);
+}
+
+@media (max-width: 576px) {
+  .container.main-timeline {
+    margin: 80px 0px 0px 0px;
+  }
+}
+
+@media (min-width: 576px) {
+  .container.main-timeline {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
+.main-sponsor {
+  max-width: 200px;
+}
+
+#footer {
+  height: 100px;
+  background-color: rgb(61,61,61);
+  display: flex;
+}
+
+#footer p {
+  color: white;
+  margin: auto;
+}
+
+.blog-img {
+  margin: 40px 0px;
+}
+
+.main-me {
+  width: 100%;
+}
+
+.row.blog-all {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  .row.blog-allreverse {
+    flex-direction: column-reverse;
+  }
+}
+
+.tietoja-lista {
+  list-style: none;
+  margin-top: 50px;
+}
+
+.tietoja-lista {
+  list-style: none;
+  margin-top: 50px;
+}
+
+.tietoja-lista-sub {
+  display: flex;
+  margin-top: 20px;
+}
+
+.tietoja-lista-sub-li {
+  padding-top: 25px;
+}
+
+.tietoja-li {
+  margin-top: 10px;
+}
+
+@media (max-width: 575px) {
+  .col-sm-6.col-md-4.item.tietoja-borders {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 769px) {
+  .col-sm-6.col-md-4.item.tietoja-borders {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+  }
+}
+
+#bg-image-200m {
+  height: 80vh;
+  background-image: url("../../assets/img/kansikuva.png");
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width:767px) {
+  #navcol-1 {
+    text-align: center;
+    margin-left: -15px;
+    margin-top: -100px;
+  }
+}
+
+@media (max-width:767px) {
+  #navcol-1 li {
+    border-bottom: 2px solid rgb(167,167,167);
+  }
+}
+
+@media (max-width: 767px) {
+  #navcol-1 ul {
+    position: fixed;
+    width: 100%;
+    height: 110vh;
+    background-color: rgba(116,116,116,0.95);
+    padding-top: 100px;
+  }
+}
+
+input[type=checkbox]:checked ~ .remove-check {
+  display: none;
+}
+
+input[type=checkbox]:checked ~ .features-blue {
+  display: none;
+}
+
+@media (max-width: 666px) {
+  #timeline-parallax {
+    margin-left: -400px;
+  }
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-family: Lora, serif !important;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+.item a:hover {
+  text-decoration: none;
+}
+
+#main-social {
+  width: 100%;
+  margin: 150px 0px;
+  flex-direction: column;
+}
+
+@media (max-width: 350px) {
+  #fb-feed {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+#fb-feed {
+  margin-top: 45px;
+  width: 300px;
+}
+
+#ig-feed a {
+  color: black;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  #fb-feed {
+    margin-top: 50px;
+    max-width: 300px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  #ig-feed {
+    margin-top: 50px;
+    margin: auto;
+  }
+}
+
+.figure.blog-figure {
+  width: 100%;
+}
+
+#side-sponsors .img-fluid {
+  margin-top: 25px;
+}
+
+.col-md-6.blog-column-right {
+  padding-left: 50px;
+}
+
+@media (max-width: 700px) {
+  .col-md-6.blog-column-right {
+    padding-left: 0px!important;
+  }
+}
+
+.bg-image {
+  background-position: center;
+  background-size: cover;
+}
+
+.blog-column-right #ig-feed {
+  margin-top: 100px;
+}
+
+#ig-feed {
+  width: 500px;
+}
+
+.bg-image-main {
+  background: url(../../assets/img/veera_kooppenhamina.jpg);
+  width: 100%;
+  background-size: cover;
+  /*background-position: center;*/
+}
+
+.double_image_main {
+  width: 100%;
+}
+
+@media (max-width: 575px) {
+  #double-images {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+}
+
+.double_image_main_left {
+  width: 100%;
+  padding: 0px 8% 0px 26%;
+}
+
+.double_image_main_right {
+  width: 100%;
+  padding: 0px 26% 0px 8%;
+}
+
+.quote {
+  font-size: 3em;
+  font-family: bellefair;
+}
+
+@media (max-width: 575px) {
+  .double_image_main_right {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .double_image_main_left {
+    padding: 20px;
+  }
+}
+
+#double-images .w-50 {
+  width: 100%!important;
+}
+
+@media (max-width: 575px) {
+  #main-social .w-50 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  #main-social .w-50 {
+  }
+}
+
+.w-50.ig-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 699px) {
+  .w-50.sata {
+    width: 100%!important;
+    margin: 80px 0px;
+  }
+}
+
+#blog-right #ig-feed {
+  width: 100%;
+}
+
+.border-right {
+  border-right: 1px solid black;
+}
+
+@media (max-width: 575px) {
+  .border-right {
+    border-right: none;
+  }
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.lightwidget-widget {
+  padding: 0px 10%;
+}
+
+@media (max-width: 400px) {
+  .lightwidget-widget {
+    padding: 0px 2%;
+  }
+}
+
+.instagram-link {
+  font-size: 4em;
+  color: black;
+}
+
+@media (max-width: 500px) {
+  .instagram-link {
+    font-size: 3em;
+    color: black;
+  }
+}
+
+.instagram-link:hover {
+  color: rgb(45,45,45);
+  text-decoration: none;
+}
+
+#blog-right .lightwidget-widget {
+  padding: 0;
+  margin-bottom: 100px;
+}
+
+#blog-arkisto ul a {
+  font-size: 0.7em;
+}
+
+#blog-arkisto ul {
+  list-style: circle;
+}
+
+#itsekirjoitettu-teksti-blogi {
+  width: 350px;
+}
+
+@media (max-width: 1300px) {
+  #itsekirjoitettu-teksti-blogi {
+    width: 350px;
+  }
+}
+
+@media (max-width: 1100px) {
+  #itsekirjoitettu-teksti-blogi {
+    width: 250px;
+  }
+}
+
+@media (max-width: 900px) {
+  #itsekirjoitettu-teksti-blogi {
+    width: 150px;
+  }
+}
+
+@media (max-width: 600px) {
+  #itsekirjoitettu-teksti-blogi {
+    width: 100px;
+  }
+}
+
+#blog-arkisto {
+  margin-top: 100px;
+}
+
+@media (max-width: 766px) {
+  #blog-arkisto {
+    display: table-header-group;
+  }
+}
+
+#blog-arkisto h3 {
+  margin-bottom: 40px;
+}
+
+#blog-right {
+  display: table;
+}
+
+#itsekirjoitettu-teksti {
+  width: 600px;
+}
+
+@media (max-width: 1300px) {
+  #itsekirjoitettu-teksti {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1100px) {
+  #itsekirjoitettu-teksti {
+    width: 400px;
+  }
+}
+
+@media (max-width: 900px) {
+  #itsekirjoitettu-teksti {
+    width: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  #itsekirjoitettu-teksti {
+    width: 200px;
+  }
+}
+
+#mina {
+  margin-top: 100px;
+}
+
+#main-one-image {
+  padding: 0 13% 0 13%;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 575px) {
+  #main-one-image {
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+}
+
+#main-introduce {
+  margin: 50px 0px 100px 0px;
+  font-size: 2em;
+}
+
+@media (max-width: 767px) {
+  #main-introduce {
+    margin: 0px 0px 50px 0px;
+    padding: 10px;
+    font-size: 1.5em;
+  }
+}
+
+#main-introduce-all {
+  margin-top: 100px;
+}
+
+@media (max-width: 575px) {
+  #main-introduce-all {
+    margin-top: 0;
+  }
+}
+
